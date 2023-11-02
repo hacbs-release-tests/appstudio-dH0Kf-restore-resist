@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: dc-metro-map-gxl8
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/qijing/dev-release-team-tenant/appstudio/dc-metro-map-gxl8@sha256:40c67ca6caa2fea8f3b39a36e0ad2d14b2dc7d202f7356286c6d84b0cf5aa3ae
         name: my-nodejs
         ports:
         - containerPort: 3001
